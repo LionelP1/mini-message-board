@@ -14,7 +14,7 @@ const messages = [
 exports.getMessages = () => messages;
   
 exports.addMessage = (messageText, messageUser) => {
-  messages.push({
+  messages.unshift({
     text: messageText,
     user: messageUser,
     added: new Date(),
