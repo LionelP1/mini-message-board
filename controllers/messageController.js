@@ -8,4 +8,5 @@ exports.getMessageList = (req, res) => {
 exports.createNewMessage = (req, res) => {
   const { messageText, messageUser } = req.body;
   messageModel.addMessage(messageText, messageUser);
+  res.redirect("/");
 };
