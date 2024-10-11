@@ -12,7 +12,7 @@
     <% messages.forEach(function(message) { %>
       <li>
         <strong><%= message.user %></strong>: <%= message.text %> 
-        <em>(<%= message.added.toDateString() %>)</em>
+        <em>(<%= message.added %>)</em>
       </li>
     <% }) %>
   </ul>
