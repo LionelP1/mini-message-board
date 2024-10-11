@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= title %></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
 </head>
 <body>
-    <h1><%= title %></h1>
-    <form action="/new" method="POST">
-        <label for="user">User:</label>
-        <input type="text" id="user" name="messageUser" required>
-        <br>
-        <label for="text">Message:</label>
-        <input type="text" id="text" name="messageText" required>
-        <br>
-        <button type="submit">Send Message</button>
-    </form>
-    
+  <h1><%= title %></h1>
+  <form action="/new" method="POST">
+    <label for="user">User:</label>
+    <input type="text" id="user" name="messageUser" required>
     <br>
-    <a href="/">Back to Messages</a>
+    <label for="text">Message:</label>
+    <textarea id="text" name="messageText" required></textarea>
+    <br>
+    <button type="submit">Send Message</button>
+  </form>
+    <button><a href="/new">Back to messages</a></button>
+  </a>
 </body>
 </html>
