@@ -11,7 +11,7 @@ const messages = [
     },
 ];
 
-exports.getMessages = () => messages;
+exports.getMessages = () => {messages};
   
 exports.addMessage = (messageText, messageUser) => {
   messages.push({
