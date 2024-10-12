@@ -8,7 +8,6 @@ html, body {
     height: 100%;
     width: 100%;
     font-family: Roboto, sans-serif;
-    background-color: #ffffff;
 }
 
 ul, ol {
@@ -23,8 +22,6 @@ ul, ol {
     justify-content: space-between; 
     align-items: center;
     padding: 18px;
-    background-color: #ffffff;
-    border-bottom: 1px solid #ddd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
   
@@ -50,7 +47,6 @@ ul, ol {
 }
 
 /* MESSAGE BOARD STYLES */
-
 .messages-container{
     display: flex;
     flex-direction: column;
@@ -91,4 +87,68 @@ ul, ol {
     color: #585858;
     white-space: normal;
     display: inline-block;
+}
+
+/* FORM STYLES */
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.message-form {
+    width: 650px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top:20vh;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #333;
+}
+
+.form-input, .form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+}
+
+.form-textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.form-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.submit-button {
+    background-color: #007bff;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.reset-button {
+    background-color: #6c757d;
+}
+
+.reset-button:hover {
+    background-color: #5a6268;
 }
