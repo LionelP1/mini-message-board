@@ -9,14 +9,11 @@
 <body>
   <%- include('header') %>
   
-  <ul>
+  <div class="messages-container">
     <% messages.forEach(function(message) { %>
-      <li>
-        <strong><%= message.user %></strong><%= message.text %> 
-        <em>(<%= message.added %>)</em>
-      </li>
+      <%- include('message', { message: message }) %>
     <% }) %>
-  </ul>
-  <button><a href="/new">Add new message</a></button>
+  </div>
+
 </body>
 </html>
