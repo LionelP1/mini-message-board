@@ -5,7 +5,7 @@ const router = express.Router();
 router.get("/", messageController.getMessageList);
 
 router.get("/new", (req, res) => {
-    res.render("form", { title: "New Message" });
+    res.render("form");
 });
 
 router.post("/new", messageController.createNewMessage);
