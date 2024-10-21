@@ -1,4 +1,4 @@
-const pool = require('./pool');
+const pool = require('./pools');
 
 async function getMessages() {
   const { rows } = await pool.query('SELECT * FROM messages ORDER BY added DESC');
