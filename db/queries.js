@@ -6,7 +6,7 @@ async function getMessages() {
           id, 
           text, 
           username, 
-          TO_CHAR(added, 'Dy Mon DD YYYY HH24:MI') AS added 
+          added 
       FROM 
           messages 
       ORDER BY 
