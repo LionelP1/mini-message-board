@@ -4,9 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "migrate": "prisma migrate dev",
-    "generate": "prisma generate"
+    "migrate": "prisma migrate deploy",
+    "start": "npm run migrate && node app.js"
   },
   "keywords": [],
   "author": "",
