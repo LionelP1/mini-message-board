@@ -1,4 +1,4 @@
-const messageQueries = require("../db/queries");
+const messageQueries = require("../prisma/queries");
 
 exports.getMessageList = async (req, res) => {
   try {
