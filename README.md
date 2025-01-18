@@ -5,16 +5,8 @@ The Message Board App allows users to post messages, view existing messages, and
 
 ## Live Demo
 [Message Board Live Demo](https://mini-message-board-fx7f.onrender.com)
+*Note: The project will take 1 minute to load*
 
-<a href="https://mini-message-board-fx7f.onrender.com" target="_blank">
-  File Uploader Live Demo
-</a>
-
-<a href="https://file-uploader-production-155a.up.railway.app" 
-   target="_blank" 
-   rel="noopener noreferrer">
-  File Uploader Live Demo
-</a>
 
 
 ## Features
