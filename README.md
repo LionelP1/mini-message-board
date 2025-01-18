@@ -6,6 +6,10 @@ The Message Board App allows users to post messages, view existing messages, and
 ## Live Demo
 [Message Board Live Demo](https://mini-message-board-fx7f.onrender.com)
 
+<a href="https://mini-message-board-fx7f.onrender.com" target="_blank">
+  File Uploader Live Demo
+</a>
+
 ## Features
 - **View Messages:** See a list of all messages posted by users, ordered by most recent.
 - **Create New Message:** Easily submit a new message with your name and text.
